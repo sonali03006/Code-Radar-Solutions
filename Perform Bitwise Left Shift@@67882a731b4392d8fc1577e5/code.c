@@ -4,6 +4,6 @@ int main(){
     scanf("%",&x);
     scanf("%d",&shift);
     int result << shift;
-    printf("%d",result);
+    printf("%d",shift,result);
     return 0;
 }
