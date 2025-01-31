@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int x;
+    int x,shift;
     scanf("%d",&x);
     scanf("%d",&shift);
     int result=x << shift;
