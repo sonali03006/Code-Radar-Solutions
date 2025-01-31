@@ -2,7 +2,7 @@
 int main(){
     int x;
     scanf("%",&x);
-    int result << shift;
+    int result=x << shift;
     printf("%d",result);
     return 0;
 }
