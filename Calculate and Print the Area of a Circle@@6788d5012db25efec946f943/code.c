@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    float x;
+    float r;
     scanf("%f",&x);
     float area = 3.14*r*r;
     printf("Area: %f",area);
