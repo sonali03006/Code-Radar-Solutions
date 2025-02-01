@@ -2,7 +2,7 @@
 int main(){
     int x,y;
     scanf("%d %d",&x,&y);
-    if(x^x==y){
+    if(x*2==y){
         printf("Yes");
     }
     else{
