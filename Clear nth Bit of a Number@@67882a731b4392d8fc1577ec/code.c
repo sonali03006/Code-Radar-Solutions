@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
-    int num, n , result;
+    int num, n;
     scanf("%d %d",&num,&n);
-    result = num &~(1<<n);
+    int result = clearNthBit(num,n);
     printf("%d %d",n, result);
     return 0;
 }
