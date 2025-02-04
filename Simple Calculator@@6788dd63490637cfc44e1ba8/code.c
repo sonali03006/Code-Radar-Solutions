@@ -13,6 +13,6 @@ int main(){
     else if(c=='/')
     printf("%f",m/n);
     else{
-        printf("Error");   }
+        printf("error");   }
     return 0;
 }
