@@ -6,14 +6,14 @@ int main(){
     scanf("%f",&n);
     scanf("%c",&c);
     if(c=='+')
-    printf("%.0f",m+n);
+    printf("%.2f",m+n);
     else if(c=='-')
-    printf("%.0f",m-n);
+    printf("%.2f",m-n);
     else if(c=='*')
-    printf("%.0f",m*n);
+    printf("%.2f",m*n);
     else if(c=='/'){
         if(n!=0){
-            printf("%.0f",m/n);
+            printf("%.2f",m/n);
         }
         else{
             printf("error");
