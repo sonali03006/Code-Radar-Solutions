@@ -16,6 +16,6 @@ int main(){
     else if(c=='/'&&n==0)
     printf("error");
     else
-        printf("error");   
+    printf("error");   
     return 0;
 }
