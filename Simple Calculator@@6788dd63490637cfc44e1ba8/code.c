@@ -1,26 +1,18 @@
 #include <stdio.h>
 int main(){
-    int x,y;
-    char ch;
-    scanf("%d %d %c",&x,&y,&ch);
-    int sum = %d+%d;
-    int sub =%d-%d;
-    int mul =%d*%d;
-    int div = %d/%d;
-    if(ch=='+'){
-        printf("%d",sum);
-    }
-    else if(ch=='-'){
-        printf("%d",sub);
-    }
-    else if(ch==*){
-        printf("%d",mul);
-    }
-    else if(ch==/){
-        printf("%d",div);
-    }
+    float x,y;
+    char c;
+    scanf("%f %f",&m,&n);
+    scanf("%c",&c);
+    if(c=='+')
+    printf("%f",m+n);
+    else if(c=='-')
+    printf("%f",m-n);
+    else if(c=='*')
+    printf("%f",m*n);
+    else if(c=='/')
+    printf("%f",m/n);
     else{
-        printf("Error");
-    }
+        printf("Error");   }
     return 0;
 }
