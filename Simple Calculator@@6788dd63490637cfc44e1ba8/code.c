@@ -2,7 +2,8 @@
 int main(){
     float m,n;
     char c;
-    scanf("%f %f",&m,&n);
+    scanf("%f",&m);
+    scanf("%f",&n);
     scanf("%c",&c);
     if(c=='+')
     printf("%.0f",m+n);
@@ -10,7 +11,7 @@ int main(){
     printf("%.0f",m-n);
     else if(c=='*')
     printf("%.0f",m*n);
-    else if(c=='/'&&m>0&&n>0)
+    else if(c=='/' && m>0 && n>0)
     printf("%.0f",m/n);
     else if(c=='/'&&n==0)
     printf("error");
