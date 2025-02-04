@@ -12,14 +12,15 @@ int main(){
     else if(c=='*')
     printf("%.2f",m*n);
     else if(c=='/'){
-        if(n!=0){
+        if(n!=0)
             printf("%.2f",m/n);
-        }
-        else{
+        
+        else
             printf("error");
-        }
+        
     }
-    else
-    printf("error");   
+    else{
+    printf("error"); 
+    }  
     return 0;
 }
