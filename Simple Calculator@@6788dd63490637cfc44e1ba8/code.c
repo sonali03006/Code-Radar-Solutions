@@ -1,26 +1,26 @@
 #include <stdio.h>
 int main(){
-    float m,n;
+    int m,n;
     char c;
-    scanf("%f",&m);
-    scanf("%f",&n);
+    scanf("%d",&m);
+    scanf("%d",&n);
     scanf("%c",&c);
     if(c=='+')
-    printf("%.2f",m+n);
+    printf("%d",m+n);
     else if(c=='-')
-    printf("%.2f",m-n);
+    printf("%d",m-n);
     else if(c=='*')
-    printf("%.2f",m*n);
+    printf("%d",m*n);
     else if(c=='/'){
         if(n!=0)
-            printf("%.2f",m/n);
+            printf("%d",m/n);
         
         else
             printf("error");
         
     }
-    else{
+    else
     printf("error"); 
-    }  
+    
     return 0;
 }
