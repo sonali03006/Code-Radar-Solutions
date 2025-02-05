@@ -2,17 +2,17 @@
 int main(){
     char  x;
     scanf("%c",&x);
-    if(x='a'||x='e'||x='i'||x='o'||x='u'){
-        printf("Vowel %c");
+    if(x==65||x==69||x==73||x==79||x==85||x==97||x==101||x==105||x==111||x==117){
+        printf("Vowel");
     }
-    else if(x>='a'&&x<='z'){
-        printf("Consonant %c");
+    else if(x>=48&&x<=57){
+        printf("Digit");
     }
-    else if(x>=0&&x<=9){
-        printf("Digit %c");
+    else if((x>=0&&x<=47)||(x>=58&&x<=64)){
+        printf("Special Character");
     }
     else{
-        printf("Special Character %c");
+        printf("Consonant");
     }
     return 0;
 }
